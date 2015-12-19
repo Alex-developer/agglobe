@@ -1,0 +1,6 @@
+EXPORTS
+
+GenerateGlobe = GenerateGlobe
+AGCalcSGP = AGCalcSGP
+
+VERSION 1.0

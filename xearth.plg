@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xearth - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP2032.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "STRICT" /FR"Release/" /Fp"Release/xearth.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\My Documents\DEVELOP\Visual C++\AgGlobe\sgp.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2032.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2033.TMP" with contents
+[
+comctl32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/AgGlobe.pdb" /machine:I386 /def:".\AgGlobe.def" /out:"Release/AgGlobe.dll" /implib:"Release/AgGlobe.lib" 
+".\Release\bmp.obj"
+".\Release\dither.obj"
+".\Release\extarr.obj"
+".\Release\mapdata.obj"
+".\Release\markers.obj"
+".\Release\render.obj"
+".\Release\scan.obj"
+".\Release\settings.obj"
+".\Release\sgp.obj"
+".\Release\sunpos.obj"
+".\Release\xearth.obj"
+".\Release\xearthwin.obj"
+".\Release\winearth.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP2033.TMP"
+<h3>Output Window</h3>
+Compiling...
+sgp.cpp
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\sgp.cpp(202) : warning C4101: 'm_vObs' : unreferenced local variable
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\sgp.cpp(203) : warning C4101: 'm_vLLA' : unreferenced local variable
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\sgp.cpp(210) : warning C4700: local variable 'TheTime' used without having been initialized
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\sgp.cpp(225) : warning C4700: local variable 'geodetic' used without having been initialized
+Linking...
+   Creating library Release/AgGlobe.lib and object Release/AgGlobe.exp
+Creating temporary file "C:\WINDOWS\TEMP\RSP2062.TMP" with contents
+[
+/nologo /o"Release/xearth.bsc" 
+".\Release\bmp.sbr"
+".\Release\dither.sbr"
+".\Release\extarr.sbr"
+".\Release\mapdata.sbr"
+".\Release\markers.sbr"
+".\Release\render.sbr"
+".\Release\scan.sbr"
+".\Release\settings.sbr"
+".\Release\sgp.sbr"
+".\Release\sunpos.sbr"
+".\Release\xearth.sbr"
+".\Release\xearthwin.sbr"]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSP2062.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+AgGlobe.dll - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

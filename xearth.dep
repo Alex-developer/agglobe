@@ -1,0 +1,239 @@
+# Microsoft Developer Studio Generated Dependency File, included by xearth.mak
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\bmp.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\settings.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\bmp.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\settings.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\dither.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\dither.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\extarr.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\extarr.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\mapdata.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\mapdata.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\markers.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\markers.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\render.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\render.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\scan.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\scan.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\settings.cpp : \
+	".\extarr.h"\
+	".\markers.h"\
+	".\port.h"\
+	".\registry.h"\
+	".\settings.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\settings.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\markers.h"\
+	".\port.h"\
+	".\registry.h"\
+	".\settings.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\sunpos.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\sunpos.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\xearth.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\xearth.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "xearth - Win32 Release"
+
+.\xearthwin.cpp : \
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\settings.h"\
+	".\xearth.h"\
+	
+
+!ELSEIF  "$(CFG)" == "xearth - Win32 Debug"
+
+.\xearthwin.cpp : \
+	"..\..\..\..\dxvcsdk\include\basetsd.h"\
+	".\extarr.h"\
+	".\kljcpyrt.h"\
+	".\port.h"\
+	".\settings.h"\
+	".\xearth.h"\
+	
+
+!ENDIF 
+

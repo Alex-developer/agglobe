@@ -1,0 +1,16 @@
+Things to do in Xearth for Windows.
+
+- "What's this?" style help
+- Degrees/minutes/seconds to decimal degrees converter
+- Indicator that updating is happening (perhaps change taskbar icon)
+- Quaketips - hover the mouse over a quake and pop up a window giving details
+- Save raw quake finger info in registry for later viewing
+- Check gamma operation
+- Make sure background image is enabled
+
+If you do any of these things, or anything else that improves Xearth, please
+let me know so I can merge the changes into the main Xearth for Windows 
+source.
+
+Greg Hewgill <greg@hewgill.com>
+http://www.hewgill.com
